@@ -9,7 +9,12 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "algoliasearch": "4.8.5",
+    "classnames": "2.2.6",
+    "qs": "6.8.0",
+    "react-instantsearch-dom": "6.10.3",
+    "react-compound-slider": "2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
