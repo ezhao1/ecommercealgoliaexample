@@ -33,8 +33,8 @@ import "./widgets/Pagination.css";
 import AlgoliaSvg from "./AlgoliaSvg";
 
 const searchClient = algoliasearch(
-  "latency",
-  "6be0576ff61c053d5f9a3225e2a90f76"
+  "M1M7Y1OAF3",
+  "c848307b7dcac3ffb3691a0806fea51e"
 );
 
 const Hit = ({ hit }) => (
@@ -114,7 +114,7 @@ const App = (props) => {
   return (
     <InstantSearch
       searchClient={searchClient}
-      indexName="instant_search"
+      indexName="prod_NAME"
       searchState={props.searchState}
       createURL={props.createURL}
       onSearchStateChange={props.onSearchStateChange}
